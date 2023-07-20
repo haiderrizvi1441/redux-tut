@@ -1,11 +1,13 @@
 
 import './App.css';
-import Test from './components/Test';
+import User from './components/User';
 
 function App() {
   return (
   <>
-    <Test/>
+    <User
+      data = {{name : "Ronaldo", age:44}}
+    />
   </>
   );
 }
